@@ -27,7 +27,7 @@ def EuclidBandpass(
         Should the routine set an AB zeropoint before returning the bandpass?
         If False, then it is up to the user to set a zero point.  [default:True]
     """
-    bp = galsim.Bandpass(throughput='1', wave_type='nm', blue_limit=400, red_limit=800) 
+    bp = galsim.Bandpass(throughput='1', wave_type='nm', blue_limit=550, red_limit=900) 
     if AB_zeropoint:
         bp = bp.withZeropoint('AB')
     return bp
