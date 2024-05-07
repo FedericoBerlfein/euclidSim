@@ -1,2 +1,2 @@
 # euclidSim
-euclidSim is a software package that simulates Euclid-like images
+euclidSim is a software package that simulates Euclid-like images.
