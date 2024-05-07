@@ -1,2 +1,1 @@
-import os
-import numpy as np
+from ._version import *
